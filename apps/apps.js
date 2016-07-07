@@ -1,1 +1,41 @@
-
+var app = angular.module('app', []);
+app.controller("menuCtrl",['$scope',function($scope){
+	$scope.links = [
+	{"category":"Politics", "name": "Day by Day Cartoon", "url":"http://www.daybydaycartoon.com"},
+	{"category":"Politics", "name": "DrudgeReport", "url":"http://drudgereport.com"},
+	{"category":"Politics", "name": "FreeRepublic", "url":"http://www.freerepublic.com/tag/*/index"},
+	{"category":"Politics", "name": "The Daily Caller", "url":"http://dailycaller.com"},
+	{"category":"Politics", "name": "The Blaze", "url":"http://www.theblaze.com"},
+	{"category":"Politics", "name": "Conservative Review", "url":"https://www.conservativereview.com"},
+	{"category":"Politics", "name": "WNIS", "url":"http://player.liquidcompass.net/WNISAM"},
+	{"category":"Politics", "name": "WRVA", "url":"http://www.iheart.com/live/1140-wrva-2465/?autoplay=true&pname=1249&campid=play_bar&cid=index.html"},
+	{"category":"Social", "name": "Facebook", "url":"https://www.facebook.com"},
+	{"category":"Social", "name": "Twitter", "url":"https://twitter.com"},
+	{"category":"Social", "name": "YouTube", "url":"https://www.youtube.com"},
+	{"category":"Social", "name": "LinkedIn", "url":"https://www.linkedin.com/nhome"},
+	{"category":"Social", "name": "Meetup", "url":"http://www.meetup.com/Ctrl-C"},
+	{"category":"Social", "name": "Classmates", "url":"http://www.classmates.com"},
+	{"category":"Entertainment", "name": "Regal Cinemas", "url":"http://www.regmovies.com/Theatres"},
+	{"category":"Entertainment", "name": "Cinema Cafe", "url":"http://cinemacafe.com/location/1887/Greenbrier-_-Chesapeake-Showtimes"},
+	{"category":"Entertainment", "name": "AMC Theaters", "url":"https://www.amctheatres.com/movie-theatres/norfolk/amc-lynnhaven-18"},
+	{"category":"Entertainment", "name": "Festevents", "url":"https://festevents.org/events/2016-season-events"},
+	{"category":"Entertainment", "name": "Beach Street USA", "url":"http://www.beachstreetusa.com/festivals"},
+	{"category":"Entertainment", "name": "Hampton Roads Events", "url":"http://hamptonroads.com/events#/23510-norfolk/all/today"},
+	{"category":"Entertainment", "name": "Live Nation Concerts", "url":"https://concerts.livenation.com/member/order_history?c=EML_trans_postv_2016-04-03_jetson_body_1_text_346_us_editlisting"},
+	{"category":"Entertainment", "name": "The NorVa", "url":"http://www.thenorva.com/events/all"},
+	{"category":"Entertainment", "name": "Plenty of Fish", "url":"http://www.pof.com/viewmatches.aspx"},
+	{"category":"Entertainment", "name": "Match", "url":"http://www.match.com/home/mymatch.aspx"},
+	{"category":"Technology", "name": "Bootstrap", "url":"http://www.w3schools.com/bootstrap/bootstrap_get_started.asp"},
+	{"category":"Technology", "name": "Layoutit", "url":"http://www.layoutit.com/build#"},
+	{"category":"Technology", "name": "Angular.js", "url":"https://angularjs.org"},
+	{"category":"Technology", "name": "jQuery", "url":"http://jquery.com"},
+	{"category":"Technology", "name": "NodeJS", "url":"https://nodejs.org/en"},
+	{"category":"Technology", "name": "Knockout.js", "url":"http://knockoutjs.com"},
+	{"category":"Finance", "name": "BB&T", "url":"https://www.bbt.com"},
+	{"category":"Finance", "name": "Best Buy Card", "url":"http://l.info5.accountonline.com/rts/go2.aspx?h=259569&tp=i-H43-Q4L-5q1-aBapD-1r-AMhYX-1c-aAMZ8-v1NmE&x=www.accountonline.com%2fcards%2fsvc%2fLogin.do%3fsiteId%3dPLCN_BESTBUY%7CEMMP46B06RZZ"},
+	{"category":"Finance", "name": "Capitol One Card", "url":"https://servicing.capitalone.com/c1/login.aspx?redirect=Statements"},
+	{"category":"Finance", "name": "US Bank", "url":"http://www.usbankhomemortgage.com"},
+	{"category":"Finance", "name": "PayPal", "url":"https://www.paypal.com/home"},
+	{"category":"Finance", "name": "JM Bullion", "url":"http://www.jmbullion.com/silver"}
+	];
+ }]);
